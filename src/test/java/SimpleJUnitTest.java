@@ -8,11 +8,8 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class SimpleJUnitTest {
-    int result;
-    @BeforeEach
-    void beforeeach(){
-        result = getResult();
-    }
+
+
 @Test
 
 void firsttest() {
@@ -20,11 +17,13 @@ void firsttest() {
     Assertions.assertTrue(3>2);
 
 }
+@Test
     void twotest() {
         System.out.println("###        two test");
         Assertions.assertTrue(3>1);
 
     }
+    @Test
     void freesttest() {
         System.out.println("###        free test");
         Assertions.assertTrue(3>1);
