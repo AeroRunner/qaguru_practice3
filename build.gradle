@@ -1,0 +1,12 @@
+plugins {
+    id 'Java-library'
+}
+repostitories {
+    mavenCentral()
+}
+
+dependencies{
+    testImplementation(
+            "com.codeborne:selenide:6.19.1"
+    )
+}
