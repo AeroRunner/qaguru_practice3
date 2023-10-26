@@ -12,6 +12,7 @@ dependencies{
             "org.junit.jupiter:junit-jupiter:5.10.0"
     )
 }
-test{
-    userJUnitPlatform()
+
+test {
+    useJUnitPlatform()
 }
