@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimpleJUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-26T18:56:48" hostname="DESKTOP-CIA7D6N" time="3.754">
+<testsuite name="SimpleJUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-26T18:58:43" hostname="DESKTOP-CIA7D6N" time="7.039">
   <properties/>
-  <testcase name="fillFormTest()" classname="SimpleJUnitTest" time="3.754"/>
+  <testcase name="successfulSearchTest()" classname="SimpleJUnitTest" time="4.353"/>
+  <testcase name="fillFormTest()" classname="SimpleJUnitTest" time="2.686"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\Air\IdeaProjects\qaguru_practice3\build\downloads\1698346608326_18716_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\Air\IdeaProjects\qaguru_practice3\build\downloads\1698346723421_26268_1
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-окт. 26, 2023 9:56:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+окт. 26, 2023 9:58:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 117
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=118.0.5993.90 Platform=windows
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.19.1
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.13.0 build revision: ba948ece5b*
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (2863d51d8f8aae40ea89de293c07a196)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (2863d51d8f8aae40ea89de293c07a196),proxy=null,downloadsFolder=C:\Users\Air\IdeaProjects\qaguru_practice3\build\downloads\1698346608326_18716_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (592cfc611fc5bcbd0cd6b058e37f4947)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (592cfc611fc5bcbd0cd6b058e37f4947),proxy=null,downloadsFolder=C:\Users\Air\IdeaProjects\qaguru_practice3\build\downloads\1698346723421_26268_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
-[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (2863d51d8f8aae40ea89de293c07a196)
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (592cfc611fc5bcbd0cd6b058e37f4947)
 ]]></system-err>
 </testsuite>
