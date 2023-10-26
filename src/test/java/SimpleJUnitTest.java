@@ -1,6 +1,5 @@
 import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
@@ -8,25 +7,22 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class SimpleJUnitTest {
-
-
-@Test
-
-void firsttest() {
-    System.out.println("###        first test");
-    Assertions.assertTrue(3>2);
-
-}
-@Test
-    void twotest() {
-        System.out.println("###        two test");
-        Assertions.assertTrue(3>1);
+    @BeforeAll
+    static void beforeAll(){
+        Configuration.browserSize = "1920x1080";
 
     }
     @Test
-    void freesttest() {
-        System.out.println("###        free test");
-        Assertions.assertTrue(3>1);
 
+    void fillFormTest() {
+
+        Configuration.holdBrowserOpen = true;
+        open("https://demoqa.com/text-box");
+        $("#userName").setValue("Any name");
+        $("#userEmail").setValue("airplay1x6@gmail.com");
+        $("#currentAddress").setValue("Any address");
+        $("#permanentAddress").setValue("Any per address");
+        $("#submit").click();
+     //   $("[id=search]").shouldHave(text("https://selenide.org"));
     }
 }
